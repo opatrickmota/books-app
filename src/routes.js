@@ -2,8 +2,6 @@ import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
 import Home from './pages/Home';
-import Detail from './pages/Detail';
-import Search from './pages/Search';
 
 import { Feather } from '@expo/vector-icons';
 
