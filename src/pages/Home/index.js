@@ -10,7 +10,7 @@ import CurrentlyCard from '../../components/CurrentlyCard'
 import ReviewCard from '../../components/ReviewCard'
 import DiscoverCards from '../../components/DiscoverCards'
 
-export default function App() {
+export default function Home() {
   return (
     <ScrollView style={{backgroundColor: '#FEF9F4'}}>
       <View style={styles.container}>

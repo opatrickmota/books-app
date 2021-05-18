@@ -2,6 +2,7 @@ import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
 import Home from './pages/Home';
+import NotFound from './pages/NotFound';
 
 import { Feather } from '@expo/vector-icons';
 
@@ -34,7 +35,7 @@ export default function Routes(){
 
             <Tab.Screen 
             name="Libraries" 
-            component={Home}
+            component={NotFound}
             options={{
                 tabBarIcon: ({size, color}) => (
                     <Feather name="book" size={size} color={color} />
@@ -44,7 +45,7 @@ export default function Routes(){
 
             <Tab.Screen 
             name="Profile" 
-            component={Home}
+            component={NotFound}
             options={{
                 tabBarIcon: ({size, color}) => (
                     <Feather name="user" size={size} color={color} />
