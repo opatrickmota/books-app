@@ -27,8 +27,8 @@ export default function Home() {
           Hi, <Text style={styles.textPink}>Mehmed Al Fatih</Text> 👋
         </Text>
 
-        <TitleCard title='Discover new book' link='More' ></TitleCard>
-        <DiscoverCards></DiscoverCards>
+        {/* <TitleCard title='Discover new book' link='More' ></TitleCard>*/}
+        <DiscoverCards></DiscoverCards> 
         <TitleCard title='Currently Reading' link='All' ></TitleCard>
         <CurrentlyCard></CurrentlyCard>
         <TitleCard title='Reviews of The Days' link='All Video' ></TitleCard>

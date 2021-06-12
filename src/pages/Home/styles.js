@@ -20,7 +20,8 @@ export default StyleSheet.create({
     },
     searchInput:{
         color: '#54565A',
-        marginLeft: 5
+        marginLeft: 5,
+        width: '100%'
     },
     title:{
         marginTop: 30,
